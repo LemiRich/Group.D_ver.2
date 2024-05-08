@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group D - Digital Mirage: Unplugging the Soul // Interactive Storytelling FINAL</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Lugrasimo&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+    <style>
+
+        html, body{
+            height: 100%;
+            /*overflow: hidden;*/
+
+            text-align: center;
+
+            background-color: black;
+            background-image: url("Asset/Laptop\ Pictures\ Aesthetic\ Dark.jpg");
+
+            color: aliceblue;
+        }
+
+        .title{
+            height: 40px;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            font-family: "Lugrasimo", cursive;
+
+            font-size: 36px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            position: relative;
+        }
+
+        .comment{
+            height: 30px;
+
+            font-family: "Handlee", cursive;
+
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .button{
+            padding: 5px;
+
+            margin-bottom: 15px;
+
+            font-size: 15px;
+            font-family: "Handlee", cursive;
+            text-align: center;
+
+            border-radius: 3px;
+        }
+
+        .button:hover {
+            background-color: grey;
+        }
+
+        .button:active {
+            background-color: grey;
+            box-shadow: 0 3px black;
+            transform: translateY(2px);
+        }
+
+        #Main_video{
+            margin-bottom: 50px;
+        }
+
+        .question{
+            height: 30px;
+
+            font-family: "Handlee", cursive;
+
+            font-size: 36px;
+            margin-bottom: 50px;
+        }
+        
+        .both_ending{
+            display: flex;
+            flex-wrap: wrap; /* 요소가 한 줄에 배열될 수 있도록 줄 바꿈을 허용합니다. */
+        
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        footer{
+            margin-top: 100px;
+            margin-bottom: 50px;
+            font-family: "Handlee", cursive;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="title">
+        <p>Digiral Mirage: Unplugging the Soul</p>
+    </div>
+
+    <div class="comment">
+        <p>Would you like to immerse into the fictional documentary of Eva, who fled to the virtual reality Elysium?</p>
+    </div>
+
+    <div>
+        <iframe width="1200" height="675" src="https://www.youtube.com/embed/phXllZfUBRc?si=8F9QfOZBAMljQcImm?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="question">
+        <p>Have you made a decision?</p>
+    </div>
+
+    <div class="both_ending">
+        <div class="end1">
+            <a href="Ending_1st.html"><img src="/Asset/1st.png" alt="ending_1st" width="80%"></a>
+        </div>
+
+        <div class="end2">
+            <a href="Ending_2nd.html"><img src="/Asset/2nd.png" alt="ending_2nd" width="80%"></a>
+ 
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>
+            <span>2024 Spring, Interactive Storytelling Midterm</span><br>
+            <span>Group Dynamic</span>
+        </p>
+    </footer>
+    
+    <script src="Play_Video.js"></script>
+
+
+</body>
+</html>
